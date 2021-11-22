@@ -168,6 +168,7 @@ class SRC14_34VClient(ECUClient):
                          boot_time_min=0, key_length=4, functional_adr=functional_addressing,
                          **kwargs)
         self.kl15_relay = 0
+        #self.kl15_relay = 0
         self.kl30_relay = 0
         self.read_dids = SRC14_34V_BVReadDataSignals
         self.write_dids = SRC14_34V_BVWriteDataSignals
