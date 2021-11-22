@@ -175,6 +175,6 @@ class SRCVClient(ECUClient):
         self.io_dids = SRCV_BVIOControlDataSignals
         self.dtc_snapshot_dids = SRCV_BVDTCSnapshotdDids
         self.long_name = ""
-        self.sysmon_sw_version_min_number_of_matches = 0
+        self.sysmon_sw_version_min_number_of_matches =  0
         self.sysmon_mask_active = False
 
